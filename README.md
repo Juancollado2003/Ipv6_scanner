@@ -14,12 +14,26 @@ TOpPLUG HUNTER🕷🐼
 <img src="https://i.imgur.cOtwByV.jpeg" />
 </p>
 <p align="center">
-🐼🕷TOpPLUG🕷🐼 Hunter Multiscanner <a href="https://github.com/Hubdarkweb" target="_blank">TOpPLUG</a> using <a href="https://github.com/Hubdarkweb/TOpNetFraZer-ipv6_scanner." target="_blank">/TOpNetFraZer-ipv6_scanner</a> and <a href="https://www.python.org/" target="_blank">Python</a>. Don't forget to upgrade 
+🐼🕷TOpPLUG🕷🐼 Hunter Multiscanner <a href="https://github.com/Juancollado2003" target="_blank">TOpPLUG</a> using <a href="https://github.com/Juancollado2003/Ipv6_scanner." target="_blank">/ipv6_scanner</a> and <a href="https://www.python.org/" target="_blank">Python</a>. Don't forget to upgrade 
 </p>
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+_____🐼🕷TOpPLUG🕷🐼_____;HOST+UNLIMITED+x+HUNTER+FraZer;DEVELOPED+BY+🐼🕷TOpPLUG🕷🐼;REALESE+DATE+2%2F7%2F2025." alt="Typing SVG" /></a>
 </p>
 # ```Hunter Info```
+
+Key Changes from original: 
+
+1. **Replaced `multithreading` with `threading`**: This is a more standard approach.
+2. **Improved Error Handling**: Added more detailed error messages.
+3. **Proxy Validation**: Added a check to ensure the proxy is correctly formatted.
+4. **WebSocket Protocol Handling**: Improved WebSocket handling with better error messages.
+5. **Progress Feedback**: Added print statements to provide feedback to the user.
+6. **Process IPs as they are generated (without waiting for the entire generation to complete).
+7. **Use multiple threads to scan IPs in parallel (based on --threads).
+8. **Avoid excessive RAM usage when the CIDR block is large.
+9. **Control data flow with queue.Queue, preventing bottlenecks.
+10. **Autoinstall dependencies. 
+
 
 Below is the **full IPv6-compatible scanner**, including all original modes:  
 
@@ -462,3 +476,4 @@ Let me know, and I’ll help set it up! 🚀
 
 
 This script is **fully IPv6-compatible**, supporting **HTTP, Proxy, SSL, UDP, WebSockets, and Ping scanning**. Let me know if you need any modifications!
+D
